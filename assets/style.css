@@ -141,8 +141,4 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin
   footer{margin-top:60px}
 }
 
-/* 404 page */
-.notfound{padding:120px 0 40px}
-.notfound p{margin:18px 0 28px;max-width:32em}
-
 @media print{.nav{position:static}.tile figure img{filter:none}}
