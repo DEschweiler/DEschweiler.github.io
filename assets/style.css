@@ -127,7 +127,7 @@ h2{margin:0;font-size:30px;line-height:1.15;font-weight:600;letter-spacing:-.028
 .showall:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .showall[hidden]{display:none}
 
-footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:84px 0 0;padding:26px 0 72px;border-top:1px solid var(--rule);font-size:13.5px;color:var(--muted)}
+main.wrap{padding-bottom:104px}
 
 @media (max-width:900px){
   .wrap{padding:0 20px}
@@ -146,7 +146,7 @@ footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin
   .two{grid-template-columns:1fr;gap:44px}
   .tl li{grid-template-columns:1fr;gap:0}
   .pubs li{grid-template-columns:1fr;gap:2px;padding:15px 0}
-  footer{margin-top:60px}
+  main.wrap{padding-bottom:72px}
 }
 
 @media print{.nav{position:static}.tile figure img{filter:none}}
